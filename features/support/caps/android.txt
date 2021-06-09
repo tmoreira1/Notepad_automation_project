@@ -1,0 +1,5 @@
+[caps]
+automationName = "UIAutomator2"
+platformName = "Android"
+deviceName = "Android Emulator"
+app = "/Users/tmoreira/Documents/GitHub/Notepad_automation_project/twp-cucumber-ruby-mobile-master/app/base.apk"

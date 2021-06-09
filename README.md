@@ -1,2 +1,1 @@
-# Notepad_automation_project
- Automation project of a notepad application, using Ruby and appium
+# Código base para automação Mobile com Cucumber, Ruby e Appium
