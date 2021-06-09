@@ -1,7 +1,7 @@
 # Notepad_automation_project
 
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://github.com/tmoreira1/Notepad_automation_project/blob/537a52ec5e99b71b721d4a3022a2f4f1ba32bc65/Readme_img/Cap_001.png" alt="exemplo imagem">
 
 > O projeto consiste em um projeto de automação do aplicativo bloco de notas, utilizando as tecnologias Ruby e Appium.
 
