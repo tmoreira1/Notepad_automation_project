@@ -1,17 +1,22 @@
 #language: pt
 
 Funcionalidade: Menu de pastas
-
+    Sendo um usuario do app é desejo gerenciar minhas anotações por categoria
+    Quero criar uma nova pasta para realizar o gerenciamento 
+    Para que eu possa realziar alocação das minhas notas de acordo com cada categoria
+    
     @abrir_menu
-    Cenario: Abrir Menu
+     Cenario: Abrir Menu
 
         Quando acesso o menu lateral
         Então vejo a lista de pastas disponiveias para navegação
-    @Visualizar_pastas_default
-    Cenario: Visualizar Pastas default
 
+    @Visualizar_pastas_default
+
+    Cenario: Visualizar Pastas default
         Quando acesso o menu lateral
         Então vejo a lista de pastas default
+
     @Criar_nova_pasta
      Cenario: Criar nova Pastas
 
