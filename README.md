@@ -53,6 +53,26 @@ Para executar teste de regressão execute o seguinte comando:
 ```
 < $ cucumber> 
 ```
+Para executar teste de cenario especificos execute o seguinte comando:
+```
+< $ cucumber -t @nome do cenario desejado> 
+```
+Listas de marcações de cenario:
+```
+< $ cucumber -t @abrir_menu> 
+```
+```
+< $ cucumber -t @Visualizar_pastas_default> 
+```
+```
+< $ cucumber -t @Criar_nova_pasta> 
+```
+```
+< $ cucumber -t @Registrar_anotações> 
+```
+```
+< $ cucumber -t @Registrar_anotações_incompletas> 
+```
 Para visualizar o relatorio allure execute o seguinte comando:
 ```
 < $ allure serve logs/> 
