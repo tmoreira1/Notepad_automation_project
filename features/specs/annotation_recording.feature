@@ -2,6 +2,7 @@
 
 Funcionalidade: Registrar anotação
 
+   @Registrar_anotações
     Cenario: Registrar anotação completa
 
     Dado que acesso a tela de cadastro de anotação
@@ -13,7 +14,7 @@ Funcionalidade: Registrar anotação
 
 
 
-
+   @Registrar_anotações_incompletas
     Esquema do Cenario: Registrar anotação com informaçoes faltantes
 
      Dado que acesso a tela de cadastro de anotação

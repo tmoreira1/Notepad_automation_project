@@ -19,17 +19,17 @@ Quando('acesso o menu lateral') do
     @nav.tap_hamburger
   end
   
-  Quando('quando acessp o pop up de cadastro de pasta') do
+  Quando('quando acesso o pop up de cadastro de pasta') do
     @nav.tap_addFolder
     expect(@nav.frame_addFolder.displayed?).to be true
   end
   
-  Quando('prencho o campo name') do
+  Quando('preencho o campo name') do
     @name = "pasta 01"
     @nav.fill_folder_name(@name)
   end
   
-  Quando('aciono o botao de ok') do
+  Quando('aciono o botão de ok') do
     @nav.tap_confirm_addFolder
   end
   
