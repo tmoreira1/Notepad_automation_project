@@ -1,9 +1,7 @@
 
-Dado('que tenho uma anotação e acesso a tela de anotações') do
-    @note_record.tap_addnoteds
-    expect(@note_record.frame_addnote.displayed?).to be true
-    @note_record.note_information( 'acc', 2, 'abc')
-    @note_screen.open_note('acc')
+Dado('que tenho uma anotação e acesso a anotação') do
+    @note_record.create_note('Fazer almoço', 2, 'Fazer almoço na quinta-feira')
+    @note_screen.open_note('Fazer almoço')
   end
   
   Quando('pressiono o botão de Deletar') do
