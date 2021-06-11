@@ -24,5 +24,4 @@ class Note_screen
     def view_note
         find_element(id: "com.hlcsdev.x.notepad:id/tvNoNotes")
     end
-
 end
