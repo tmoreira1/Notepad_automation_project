@@ -9,7 +9,7 @@ Funcionalidade: Menu de pastas
      Cenario: Abrir Menu
 
         Quando acesso o menu lateral
-        Então vejo a lista de pastas disponiveias para navegação
+        Então vejo a lista de pastas disponiveis para navegação
 
     @Visualizar_pastas_default
 
