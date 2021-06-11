@@ -1,9 +1,9 @@
 #language: pt
 
 Funcionalidade: Deletar anotação
-    Sendo um usuario é desejo lembrar de algo mais tarde
-    Quero deletar minhas anotaçoes no app
-    Para que eu possa excuir o item das minhas atividades
+    Sendo um usuário é desejo lembrar de algo mais tarde
+    Quero deletar minhas anotações no app
+    Para que eu possa excluir o item das minhas atividades
 
     @Deletar_anotações
     Cenario: Deletar anotação
