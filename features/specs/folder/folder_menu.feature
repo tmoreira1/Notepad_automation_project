@@ -12,8 +12,8 @@ Funcionalidade: Menu de pastas
         Então vejo a lista de pastas disponiveis para navegação
 
     @Visualizar_pastas_default
-
     Cenario: Visualizar Pastas default
+    
         Quando acesso o menu lateral
         Então vejo a lista de pastas default
 
