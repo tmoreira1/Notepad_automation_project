@@ -14,6 +14,6 @@ Dado('que tenho uma anotação e acesso a tela de anotações') do
     @note_screen.frame_delete(true)
   end
 
-  Entao('a anotação nao deve ser exibida na pasta principal') do
+  Entao('a anotação não deve ser exibida na pasta principal') do
     expect(@note_screen.view_note.displayed?).to be true
   end
