@@ -14,7 +14,7 @@ class Note_screen
     end
 
     def frame_delete(delete)
-        if delete = true
+        if delete == true
             find_element(id: "android:id/button1").click
         else
             find_element(id: "android:id/button2").click
