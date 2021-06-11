@@ -18,5 +18,4 @@ class Note_record_screen
         find_element(id: "com.hlcsdev.x.notepad:id/etContent").send_keys(note)
         find_element(xpath: "//android.widget.ImageButton[@clickable='true']").click
     end
-
 end
