@@ -6,7 +6,7 @@ Dado('que tenho uma anotação e acesso a tela de anotações') do
     @note_screen.open_note('acc')
   end
   
-  Quando('Pressiono o botão de Deletar') do
+  Quando('pressiono o botão de Deletar') do
     @note_screen.delete_note
   end
   
