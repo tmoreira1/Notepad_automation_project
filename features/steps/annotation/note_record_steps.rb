@@ -1,6 +1,6 @@
 
 Dado('que acesso a tela de cadastro de anotação') do
-    @note_record.tap_addnoteds
+    @note_record.tap_addnote
     expect(@note_record.frame_addnote.displayed?).to be true
 end
   
