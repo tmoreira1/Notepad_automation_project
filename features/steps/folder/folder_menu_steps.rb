@@ -3,7 +3,7 @@ Quando('acesso o menu lateral') do
     @nav.tap_hamburger
 end
   
-Então('vejo a lista de pastas disponiveias para navegação') do
+Então('vejo a lista de pastas disponiveis para navegação') do
     expect(@nav.menu_folders.displayed?).to be true
 end
 
