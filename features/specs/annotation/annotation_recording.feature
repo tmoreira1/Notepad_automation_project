@@ -1,8 +1,8 @@
 #language: pt
 
 Funcionalidade: Registrar anotação
-    Sendo um usuario é desejo lembrar de algo mais tarde
-    Quero fazer minhas anotaçoes no app
+    Sendo um usuário é desejo lembrar de algo mais tarde
+    Quero fazer minhas anotações no app
     Para que eu possa lembrar das minhas atividades no momento oportuno 
 
     @Registrar_anotações
