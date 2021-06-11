@@ -1,9 +1,9 @@
 #language: pt
 
 Funcionalidade: Menu de pastas
-    Sendo um usuario do app é desejo gerenciar minhas anotações por categoria
+    Sendo um usuário do app é desejo gerenciar minhas anotações por categoria
     Quero criar uma nova pasta para realizar o gerenciamento 
-    Para que eu possa realziar alocação das minhas notas de acordo com cada categoria
+    Para que eu possa realizar alocação das minhas notas de acordo com cada categoria
     
     @abrir_menu
      Cenario: Abrir Menu
