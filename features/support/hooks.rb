@@ -3,7 +3,8 @@ Before do
   driver.manage.timeouts.implicit_wait = 10
 
   @nav = Menu.new
-  @note_screen = Note_record_screen.new
+  @note_record = Note_record_screen.new
+  @note_screen = Note_screen.new
 end
 
 After do |scenario|

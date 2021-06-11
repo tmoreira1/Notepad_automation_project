@@ -27,6 +27,4 @@ class Menu
     def tap_confirm_addFolder
         return find_element(id: "android:id/button2").click
     end
-
-
 end
