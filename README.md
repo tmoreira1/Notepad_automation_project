@@ -11,7 +11,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 - [x] Automatizar Acesso e cadastro de pastas
 - [x] Automatizar cadastro de anotações
-- [ ] Automatizar excluir anotações
+- [x] Automatizar excluir anotações
 - [ ] Automatizar excluir pastas
 - [ ] Automatizar exportar anotações
 
