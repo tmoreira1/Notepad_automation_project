@@ -1,6 +1,6 @@
 class Note_record_screen
 
-    def tap_addnoteds
+    def tap_addnote
         find_element(xpath: "//android.widget.TextView[@text='Favorites']").click
         find_element(id: "com.hlcsdev.x.notepad:id/fab").click
     end
@@ -17,5 +17,10 @@ class Note_record_screen
         find_element(id: "com.hlcsdev.x.notepad:id/etContent").click
         find_element(id: "com.hlcsdev.x.notepad:id/etContent").send_keys(note)
         find_element(xpath: "//android.widget.ImageButton[@clickable='true']").click
+    end
+    
+    def create_note(title, color, note)
+        tap_addnote
+        note_information(title, color, note)
     end
 end
