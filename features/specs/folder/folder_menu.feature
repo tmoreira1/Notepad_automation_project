@@ -24,5 +24,5 @@ Funcionalidade: Menu de pastas
         Quando quando acesso o pop up de cadastro de pasta
         E preencho o campo name
         E aciono o botão de ok
-        Entao deve ser exibido a nova pasta no menu lateral 
+        Entao deve ser exibido a nova pasta no menu lateral oculto
 
